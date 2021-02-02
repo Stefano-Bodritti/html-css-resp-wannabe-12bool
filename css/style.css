@@ -28,12 +28,14 @@ h2 {
   padding: 20px;
 }
 
+/* sezione how */
 .how {
   margin-top: 60px;
   margin-bottom: 60px;
   padding-bottom: 30px;
 }
 
+/* sezione why */
 .why img {
   height: 260px;
   background-color: #428bca;
@@ -44,4 +46,32 @@ h2 {
 .why .row {
   border-bottom: 1px solid black;
   padding: 35px 0 15px;
+}
+
+/* responsive tra 768px e 991px */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+  img {
+    height: 160px;
+  }
+
+  .lezioni .blocco {
+    padding: 0 20px;
+  }
+
+  .how .blocco {
+    margin-bottom: 20px;
+    padding: 0 15px;
+  }
+
+  .why img {
+    height: 200px;
+    padding: 22px;
+  }
+
+  .why .row {
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
